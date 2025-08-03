@@ -51,7 +51,7 @@ function renderPost() {
                         <img src="images/icon-comment.png" alt="comment icon" class="icon">
                         <img src="images/icon-dm.png" alt="share icon" class="icon">
                     </div>
-                    <h4>${likes.toLocaleString('en-US')}</h4>
+                    <h4>${likes.toLocaleString('en-US')} likes</h4>
                     <h5><span class="bold">${username}</span> ${comment}</h5>
                 </div>
             </div>
